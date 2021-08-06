@@ -6,7 +6,7 @@ This repository contains academia implementations for timestamps algorithms:
 
 ## Summary
 - There are a lot of approach for time and ordering in Distributed Systems.
-- Additionally, the error comes with time estimations from Cristian's Algorithms and NTP are unvoidable.
+- Additionally, the error comes with time estimations from Cristian's Algorithms and NTP are unvoidable (delay time in communications).
 - However, sometimes we do not need to get the exact time, we only need the order of events in a multiprocessing systems.
 
 
