@@ -7,7 +7,19 @@ This repository contains academia implementations for timestamps algorithms:
 ## Summary
 - There are a lot of approach for time and ordering in Distributed Systems.
 - Additionally, the error comes with time estimations from Cristian's Algorithms and NTP are unvoidable (delay time in communications).
-- However, sometimes we do not need to get the exact time, we only need the order of events in a multiprocessing systems.
+- Thus, clocks are unsynchronized in distribtud systems.
+- However, sometimes we do not need to get the exact time, we only need the order of events in a multiprocessing systems (order of events across processes).
+
+
+## Comparisons
+Lamport Timestamps:
+- Integer clocks assigned to events.
+- Obeys causality.
+- Cannot distinguish concurrent events.
+
+Vector Clocks:
+- Obeys causality.
+- By using more space, it can identify concurrent events across processes.
 
 
 ## Building
